@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title> Aplicação colorida</title>
+    <style>         
+        #verde {
+            background-color: green;
+        }
+        #azul {
+            background-color: blue;
+
+        }
+        #amarelo {
+            background-color:rgb(255, 255, 9);
+
+        }
+
+        button {
+            border-radius: 3px; 
+            width: 80px;
+            height: 30px;
+            margin: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Troca de Cor</h3>
+
+    <button id="azul" onclick="setColor('blue')">Azul</button>
+
+    <button id="verde" onclick="setColor('green')">Verde</button>
+
+    <button id="amarelo" onclick="setColor('yellow')">Amarelo</button>
+
+    <button onclick="randomColor()">Aleatório</button>
+
+    <script src="index.js" ></script>
+</body>
+
+</html>
